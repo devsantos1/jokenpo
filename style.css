@@ -1,0 +1,92 @@
+body {
+    background: url(https://source.unsplash.com/1600x900/?landscape);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+span {
+    color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.result {
+    border: 1px solid black;
+}
+
+
+.container {
+    background: #ffffff63;
+    padding: 20px;
+    border-radius: 10px;
+
+
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+div {
+    margin: 20px 0;
+}
+
+button {
+
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+
+    opacity: .7;
+}
+
+#pedra {
+    padding: 10px;
+    font-size: 30px;
+    background: #d16161;
+    margin-right: 10px;
+}
+
+
+#papel {
+    padding: 10px;
+    font-size: 30px;
+    background: #61d17b;
+    margin-right: 10px;
+
+}
+
+#tesoura {
+    padding: 10px;
+    font-size: 30px;
+    background: #9766eb;
+
+}
+
+P {
+    font-size: 25px;
+
+}
+
+.pontuacao-ia span {
+
+    color: red;
+}
+
+.sua-pontuacao span {
+
+    color: blue;
+}
